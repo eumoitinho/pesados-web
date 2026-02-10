@@ -1,122 +1,109 @@
-# Pesados Web
+<p align="center">
+  <!-- Troque pelo seu banner: /assets/hero.jpg -->
+  <img src="assets/hero.jpg" alt="Pesados Web — classificados de veículos pesados" width="100%" />
+</p>
 
-**Plataforma brasileira de classificados para veículos pesados e equipamentos.**
+<h1 align="center">Pesados Web</h1>
 
-Marketplace completo que conecta compradores e vendedores de caminhões, cavalos mecânicos, carretas e implementos em todo o Brasil.
+<p align="center">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jtOKmMlz-vg?si=MAAzX0ff0pQ_sDix" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-> **Site em produção:** [pesadosweb.com.br](https://pesadosweb.com.br)
+  Plataforma brasileira de classificados para <b>caminhões</b>, <b>cavalos mecânicos</b>, <b>carretas</b> e <b>implementos</b>.
+  <br/>
+  Feita pra publicar rápido, filtrar bem e vender com confiança.
+</p>
+
+<p align="center">
+  <a href="https://pesadosweb.com.br"><b>pesadosweb.com.br</b></a> •
+  <a href="[https://pesadosweb.com.br/](https://pesadosweb.com.br/trucks)"><b>Ver catálogo</b></a> •
+  <a href="[https://pesadosweb.com.br](https://pesadosweb.com.br/anunciar)"><b>Anunciar</b></a>
+</p>
+
+<p align="center">
+  <!-- poucos badges, só o que ajuda -->
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-14-black" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-✔-blue" />
+  <img alt="Status" src="https://img.shields.io/badge/status-em%20produ%C3%A7%C3%A3o-success" />
+</p>
+
+---
+<video src="[Wanderlei Silva](https://github.com/user-attachments/assets/e3bdede4-1f13-4eb3-abb1-97f707154f11)" controls width="100%"></video>
+
+
+
+
+
 
 ---
 
-## Sobre o Projeto
+## Por que existe
 
-A Pesados Web é um projeto de 2021, fundada em Curitiba, tendo como um dos fundadores o lutador de MMA Wanderlei Silva. Foi desenvolvida do zero apenas tendo eu como desenvolvedor do projeto como uma plataforma SaaS de classificados voltada ao mercado de veículos pesados. O sistema conta com fluxo completo de publicação de anúncios, moderação administrativa, sistema de pagamentos integrado, marketing interno com créditos e geolocalização inteligente.
+A Pesados Web nasceu em 2021, em Curitiba, pra resolver um problema bem específico:
+**anunciar e encontrar veículo pesado sem fricção**, com filtros bons, fotos bem exibidas e contato protegido.
 
-### Desenvolvedor
-
-**João Vitor Moitinho Silva** — Arquitetura, desenvolvimento full-stack e deploy.
-
----
-
-## Stack Tecnológica
-
-| Camada | Tecnologia |
-|---|---|
-| Frontend | Next.js 14 (App Router), React, Tailwind CSS, shadcn/ui |
-| Backend | Next.js API Routes, Server Actions |
-| Banco de Dados | PostgreSQL + Drizzle ORM |
-| Autenticação | Better Auth (email/senha + Google OAuth) |
-| Pagamentos | Asaas API (PIX, boleto, cartão) |
-| CMS | Sanity (produtos de marketing) |
-| Storage | AWS S3 + CloudFront CDN |
-| Deploy | Azure |
-| Monitoramento | RD Station, Google Analytics |
+Um dos fundadores é o lutador de MMA **Wanderlei Silva**.
 
 ---
 
-## Funcionalidades
+## O que a plataforma entrega (na prática)
 
-### Plataforma Pública
-- Catálogo com filtros avançados (marca, categoria, tipo de carroceria, ano, preço, estado)
-- Geolocalização automática — ordena anúncios por proximidade do comprador
-- Detalhes completos do veículo com galeria de fotos e vídeo
-- Contato protegido (WhatsApp e telefone liberados mediante cadastro)
-- Sistema de favoritos
-- Blog integrado
-- FAQ e Central de Ajuda
+- **Catálogo com filtros fortes**: marca, categoria, tipo de carroceria, ano, preço, estado
+- **Geolocalização**: ordena anúncios por proximidade do comprador
+- **Página do veículo completa**: galeria (até 25 fotos) + vídeo do anúncio
+- **Contato protegido**: WhatsApp/telefone liberados mediante cadastro
+- **Vendedor**: fluxo de anúncio em etapas + checkout PIX/boleto/cartão (Asaas)
+- **Admin**: moderação, métricas, gestão de usuários e auditoria
+- **Marketing interno**: créditos, patrocinados e banners via CMS
 
-### Área do Vendedor (Dashboard)
-- Fluxo de criação de anúncio em steps (plano, conta, categoria, veículo, fotos, pagamento)
-- 3 categorias: Caminhão, Cavalo Mecânico, Carreta/Implemento
-- 23 tipos de carroceria
-- Upload de até 25 fotos + 1 vídeo por anúncio
-- Gerenciamento de anúncios (status, visualizações, edição)
-- Checkout integrado com Asaas (PIX com QR code)
-- Notificações em tempo real
+---
 
-### Painel Administrativo
-- Dashboard com métricas (anúncios, usuários, crescimento mensal)
-- Moderação de anúncios (aprovar, rejeitar com motivo)
-- Gestão de usuários (roles, ban, verificação)
-- Logs de auditoria
-- Configurações do sistema
+## Stack (resumo)
 
-### Sistema de Marketing
-- Painel de marketing com créditos
-- Anúncios patrocinados em posições estratégicas (header, sidebar, catálogo, detalhes)
-- Métricas de impressões e cliques por campanha
-- Banners gerenciados via Sanity CMS
+- **Frontend**: Next.js 14 (App Router), React, Tailwind, shadcn/ui  
+- **Backend**: Next.js API Routes + Server Actions  
+- **DB**: PostgreSQL + Drizzle ORM  
+- **Auth**: Better Auth (email/senha + Google OAuth)  
+- **Pagamentos**: Asaas (PIX/boleto/cartão)  
+- **CMS**: Sanity (conteúdo/marketing)  
+- **Storage/CDN**: S3 + CloudFront  
+- **Deploy**: Azure  
+- **Métricas**: RD Station, Google Analytics  
 
 ---
 
 ## Screenshots
 
-### Home Page
-![Home Page](screenshots/01-home-full.png)
+<details>
+  <summary><b>Ver screenshots</b></summary>
 
-### Catálogo de Veículos
-![Catálogo](screenshots/02-catalogo.png)
+  ### Home
+  ![Home](screenshots/01-home-full.png)
 
-### Detalhes do Veículo
-![Detalhes](screenshots/03-detalhes-caminhao.png)
+  ### Catálogo
+  ![Catálogo](screenshots/02-catalogo.png)
 
-### Login
-![Login](screenshots/04-login.png)
+  ### Detalhes
+  ![Detalhes](screenshots/03-detalhes-caminhao.png)
 
-### Dashboard do Vendedor
-![Dashboard](screenshots/05-dashboard-usuario.png)
+  ### Dashboard (Vendedor)
+  ![Dashboard](screenshots/05-dashboard-usuario.png)
 
-### Meus Anúncios
-![Meus Anúncios](screenshots/06-meus-anuncios.png)
+  ### Admin
+  ![Admin](screenshots/10-admin-dashboard.png)
 
-### Fluxo de Anúncio - Escolha do Plano
-![Anunciar Step 1](screenshots/07-anunciar-step1.png)
+</details>
 
-### Fluxo de Anúncio - Categoria
-![Anunciar Categoria](screenshots/08-anunciar-step-categoria.png)
+---
 
-### Fluxo de Anúncio - Tipo de Carroceria
-![Anunciar Tipo](screenshots/09-anunciar-step-tipo.png)
+## Crédito
 
-### Admin - Dashboard
-![Admin Dashboard](screenshots/10-admin-dashboard.png)
-
-### Admin - Moderação de Anúncios
-![Admin Anúncios](screenshots/11-admin-anuncios.png)
-
-### Admin - Gestão de Usuários
-![Admin Usuários](screenshots/12-admin-usuarios.png)
-
-### Painel de Marketing
-![Marketing](screenshots/13-marketing-painel.png)
+**João Vitor Moitinho Silva** — arquitetura, desenvolvimento full-stack e deploy.
 
 ---
 
 ## Licença
 
+**Todos os direitos reservados.**  
+Este repositório é software proprietário. Uso, cópia, modificação ou redistribuição só com autorização expressa.
 
-**Todos os direitos reservados.** Nenhuma parte deste software pode ser copiada, modificada, distribuída ou utilizada sem autorização expressa e por escrito do autor.
-
-Consulte o arquivo [LICENSE](LICENSE) para detalhes completos.
+Veja: [LICENSE](LICENSE)
