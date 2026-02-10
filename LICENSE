@@ -1,0 +1,184 @@
+LICENÇA PROPRIETÁRIA DE SOFTWARE
+==================================
+
+Copyright (c) 2025-2026 João Vitor Moitinho Silva
+CNPJ: 55.942.611/0001-40
+Todos os direitos reservados. All Rights Reserved.
+
+-------------------------------------------------------------------------------
+
+1. TITULARIDADE E AUTORIA
+
+Este software, incluindo mas não se limitando a todo o código-fonte, arquivos de
+configuração, scripts, migrações de banco de dados, assets visuais criados pelo
+autor, documentação técnica e arquitetura do sistema ("Software"), denominado
+"Pesados Web" (plataforma web acessível em pesadosweb.com.br), foi integralmente
+concebido, projetado, desenvolvido e implementado por:
+
+    João Vitor Moitinho Silva
+    CNPJ: 55.942.611/0001-40
+
+O autor é o único e exclusivo titular dos direitos autorais patrimoniais e morais
+sobre o Software, nos termos da Lei nº 9.609/1998 (Lei de Software), da Lei nº
+9.610/1998 (Lei de Direitos Autorais) e demais legislações aplicáveis da
+República Federativa do Brasil.
+
+O desenvolvimento foi realizado sob contratação por:
+
+    Ninetwo Performance
+    CNPJ: 41.263.626/0001-78
+
+Para uso no âmbito da pessoa jurídica:
+
+    Pesados Web
+    CNPJ: 60.326.116/0001-47
+
+A contratação para desenvolvimento NÃO implica, em nenhuma hipótese, cessão ou
+transferência automática dos direitos autorais patrimoniais ou morais sobre o
+Software, salvo mediante contrato específico de cessão, firmado por escrito,
+com cláusulas expressas e remuneração adequada, conforme exigido pelo Art. 4º
+da Lei nº 9.609/1998.
+
+-------------------------------------------------------------------------------
+
+2. DIREITOS RESERVADOS
+
+Nenhuma parte deste Software pode ser:
+
+  a) Copiada, reproduzida ou duplicada, total ou parcialmente;
+  b) Modificada, adaptada, traduzida ou criada obra derivada;
+  c) Distribuída, sublicenciada, vendida, alugada ou cedida a terceiros;
+  d) Publicada, exibida ou tornada disponível publicamente;
+  e) Descompilada, submetida a engenharia reversa ou desmontada;
+  f) Utilizada como base para desenvolvimento de software concorrente;
+
+Sem a autorização prévia, expressa e por escrito do titular dos direitos
+autorais (João Vitor Moitinho Silva).
+
+-------------------------------------------------------------------------------
+
+3. LICENÇA DE USO CONDICIONADA
+
+O uso, implantação, hospedagem e operação deste Software por qualquer pessoa
+física ou jurídica, incluindo mas não se limitando a Ninetwo Performance
+(CNPJ: 41.263.626/0001-78) e Pesados Web (CNPJ: 60.326.116/0001-47), está
+CONDICIONADO ao cumprimento integral e simultâneo de TODAS as seguintes
+condições:
+
+  a) Existência de contrato de prestação de serviços ou licenciamento vigente
+     e válido entre as partes;
+
+  b) Pagamento integral e pontual de todas as remunerações, honorários e
+     valores devidos ao autor/desenvolvedor, conforme acordado entre as partes;
+
+  c) Manutenção de boa-fé contratual e respeito aos direitos do autor;
+
+  d) Utilização exclusivamente para os fins previstos no contrato vigente.
+
+-------------------------------------------------------------------------------
+
+4. REVOGAÇÃO AUTOMÁTICA DA LICENÇA DE USO
+
+A licença de uso concedida sob a Seção 3 será AUTOMATICAMENTE REVOGADA,
+sem necessidade de notificação prévia ou procedimento judicial, nas seguintes
+hipóteses:
+
+  a) Inadimplemento total ou parcial dos pagamentos devidos ao autor por
+     período superior a 30 (trinta) dias corridos após o vencimento;
+
+  b) Rescisão, término ou expiração do contrato de prestação de serviços
+     ou licenciamento entre as partes;
+
+  c) Violação de qualquer cláusula desta licença ou do contrato vigente;
+
+  d) Tentativa de cessão, sublicenciamento ou transferência não autorizada
+     do Software ou de direitos sobre ele a terceiros;
+
+  e) Uso do Software para fins não previstos ou não autorizados.
+
+Revogada a licença, o(s) licenciado(s) deverão IMEDIATAMENTE:
+
+  i)   Cessar todo e qualquer uso do Software;
+  ii)  Remover o Software de todos os servidores, ambientes e dispositivos;
+  iii) Destruir todas as cópias do código-fonte em sua posse;
+  iv)  Confirmar por escrito o cumprimento dos itens acima.
+
+A continuidade do uso após a revogação constitui violação de direitos autorais,
+sujeita às penalidades civis e criminais previstas em lei.
+
+-------------------------------------------------------------------------------
+
+5. AUSÊNCIA DE GARANTIAS
+
+Este Software é fornecido "COMO ESTÁ" (AS IS), sem garantias de qualquer
+natureza, expressas ou implícitas, incluindo, mas não se limitando a, garantias
+de comercialização, adequação a um propósito específico ou não violação de
+direitos de terceiros.
+
+-------------------------------------------------------------------------------
+
+6. LIMITAÇÃO DE RESPONSABILIDADE
+
+Em nenhuma hipótese o autor será responsável por quaisquer danos diretos,
+indiretos, incidentais, especiais, consequenciais ou punitivos decorrentes
+do uso ou impossibilidade de uso do Software, ainda que o autor tenha sido
+avisado da possibilidade de tais danos.
+
+-------------------------------------------------------------------------------
+
+7. PROTEÇÃO DO CÓDIGO-FONTE
+
+O código-fonte deste Software constitui segredo de negócio e informação
+confidencial do autor. Qualquer pessoa que tenha acesso ao código-fonte
+está obrigada a:
+
+  a) Manter sigilo absoluto sobre o conteúdo do código-fonte;
+  b) Não divulgar, compartilhar ou tornar acessível a terceiros;
+  c) Não utilizar o conhecimento adquirido para desenvolver software similar;
+  d) Comunicar imediatamente ao autor qualquer vazamento ou acesso não
+     autorizado.
+
+-------------------------------------------------------------------------------
+
+8. REGISTRO E COMPROVAÇÃO
+
+O histórico completo de desenvolvimento, incluindo commits, branches, logs de
+versionamento e demais registros do sistema de controle de versão (Git),
+constitui prova inequívoca da autoria e titularidade do autor sobre o Software.
+
+O autor reserva-se o direito de registrar este Software junto ao INPI (Instituto
+Nacional da Propriedade Industrial) ou qualquer outro órgão competente, a
+qualquer tempo.
+
+-------------------------------------------------------------------------------
+
+9. DISPOSIÇÕES GERAIS
+
+  a) Esta licença é regida pelas leis da República Federativa do Brasil;
+
+  b) Fica eleito o foro da comarca de Dourados - Mato Grosso do Sul, domicílio do autor, para dirimir
+     quaisquer controvérsias oriundas desta licença;
+
+  c) A invalidade de qualquer disposição desta licença não afetará a
+     validade das demais disposições;
+
+  d) A tolerância do autor quanto ao descumprimento de qualquer cláusula
+     não constitui renúncia ao direito de exigir o cumprimento posterior;
+
+  e) Qualquer alteração desta licença somente será válida se feita por
+     escrito e assinada pelo autor.
+
+-------------------------------------------------------------------------------
+
+10. CONTATO
+
+Para solicitações de licenciamento, cessão de direitos, autorizações ou
+quaisquer questões relacionadas a este Software:
+
+    João Vitor Moitinho Silva
+    CNPJ: 55.942.611/0001-40
+
+-------------------------------------------------------------------------------
+
+Data de vigência: 01 de Junho de 2025
+Última atualização: 10 de Fevereiro de 2026
